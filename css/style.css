@@ -58,19 +58,19 @@
     margin:0;
     padding:0;
 }
+
 #form_container #login h2 {
     font-size:2.8em;
     font-weight:400 !important;
     color:#fff; 
 }
+
 #form_container #login {
     margin:0;
     padding:0;
     list-style-type:none;
     width:363px;
-    height:auto;
     padding:18px 0 0 0;
-
     width:459px;
     height:84px;
     text-align:center;
@@ -91,7 +91,7 @@
     padding:10px 0 0 0;
     /* Typeface */
     background-color: transparent;
-    color: white;
+    color: #3775d3;
     font-size:1.1em;
     text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
     -moz-text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
@@ -107,20 +107,6 @@
     height:36px;
     width:252px;
 }
-#form_container li:hover span {
-    background:#fff;
-    color:#00f;
-    display:block !important;
-    position:absolute;
-    top:-80px;
-    left:50%;
-    z-index:1000;
-}
-#form_container li span {
-    display:none;
-
-}
-
 
 #form_container li button {
     margin:36px 0 0 0;
