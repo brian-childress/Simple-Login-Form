@@ -1,0 +1,179 @@
+#wrapper {
+	margin:0;
+	padding:0;
+}
+
+#head_container menu {
+    width:459px;
+    height:54px;
+    margin:0 auto; 
+    text-align:center;
+    padding:19px 0 0 0;
+    /* typeface */
+    font-size:2.3em;
+    font-weight:500;
+    color:#fff
+}
+
+#head_container {
+    width:100%;
+    height:84px;
+    /* for older browsers */
+    background:#3775d3;
+    /* for new browsers w/ transparency */
+    background:rgba(55,117,211,.8);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:900;
+    /* Box Shadow */
+    box-shadow:0px 1px 3px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0px 1px 3px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:0px 1px 3px 3px rgba(0,0,0,0.5);
+    -ms-box-shadow:0px 1px 3px 3px rgba(0,0,0,0.5);
+    -o-box-shadow:0px 1px 3px 3px rgba(0,0,0,0.5);
+}
+
+#form_container {
+    background:#7f7f7f;
+    width:414px;
+    height:263px;
+    margin:0 auto;
+    padding:84px 0 0 45px;
+    border-radius:0 0 10px 10px;
+    /* Border Radius */
+    -webkit-border-radius:0 0 10px 10px;
+    -moz-border-radius:0 0 10px 10px;
+    -ms-border-radius:0 0 10px 10px;
+    -o-border-radius:0 0 10px 10px;
+    /* Box Shadow */
+    box-shadow:4px 4px 3px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow:4px 4px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow:4px 4px 3px 0px rgba(0,0,0,0.3);
+    -ms-box-shadow:4px 4px 3px 0px rgba(0,0,0,0.3);
+    -o-box-shadow:4px 4px 3px 0px rgba(0,0,0,0.3);
+}
+
+#form_container ul {
+    margin:0;
+    padding:0;
+}
+#form_container #login h2 {
+    font-size:2.8em;
+    font-weight:400 !important;
+    color:#fff; 
+}
+#form_container #login {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:363px;
+    height:auto;
+    padding:18px 0 0 0;
+
+    width:459px;
+    height:84px;
+    text-align:center;
+}
+#form_container li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:363px;
+    height:36px;
+    padding:18px 0 0 0;
+    position:relative !important;
+
+}
+#form_container li label{
+    float:left;
+    display:block;
+    padding:10px 0 0 0;
+    /* Typeface */
+    background-color: transparent;
+    color: white;
+    font-size:1.1em;
+    text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
+    -moz-text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
+    -webkit-text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
+    -ms-text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
+    -o-text-shadow: rgba(0, 0, 0, 0.44) 3.5px 3.5px 4px;
+    
+}
+
+#form_container li input{
+    float:right;
+    display:block;
+    height:36px;
+    width:252px;
+}
+#form_container li:hover span {
+    background:#fff;
+    color:#00f;
+    display:block !important;
+    position:absolute;
+    top:-80px;
+    left:50%;
+    z-index:1000;
+}
+#form_container li span {
+    display:none;
+
+}
+
+
+#form_container li button {
+    margin:36px 0 0 0;
+    padding:0;
+    height:51px;
+    width:354px;
+    font-size:1.2em;
+    border: 3px #333 solid;
+    border-radius:0 0 10px 10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    /* Gradient */
+    background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+}
+#form_container ul {
+    margin:20px 0 0 0;
+    padding:0;
+}
+       
+/* Form Placeholder css */
+:-moz-placeholder {
+    color: #ccc;
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+/* Media Queries if */
+@media screen and (min-width: 1px) and (max-width: 978px){
+     body {  /*border-left:red solid 10px;*/ }
+
+    #form_container {
+    	background:red !important;
+	}
+   
+}
+
+@media screen and (min-width: 978px) and (max-width: 4034px){
+     body {  /*border-left:yellow solid 10px;*/ }
+
+}
+
+ 
+
+
+
+
